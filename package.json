@@ -1,0 +1,15 @@
+{
+  "name": "mafia-bot",
+  "version": "1.0.0",
+  "description": "Telegram Mafia o'yin boti",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/simulate.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.0.0",
+    "node-telegram-bot-api": "0.64.0"
+  }
+}
